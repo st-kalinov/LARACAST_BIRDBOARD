@@ -1,1 +1,32 @@
-//
+// Variables
+@import 'variables';
+@import 'themes/light';
+@import 'themes/dark';
+
+
+@import 'components/button';
+@import 'components/card';
+@import 'components/dropdown';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+button {
+    @apply .text-default;
+}
+
+.section {
+    @apply .px-8;
+}
+// @import '~bootstrap/scss/bootstrap';
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
